@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hermes Skill Discovery"
+  short_description: "Find Hermes skills and reuse paths."
+  default_prompt: "Use $hermes-skill-discovery to find Hermes skills for this workflow."
