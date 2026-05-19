@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hermes Design Best Practices"
+  short_description: "Guide Hermes agent architecture decisions."
+  default_prompt: "Use $hermes-agent-design-best-practices to guide this Hermes agent design."
