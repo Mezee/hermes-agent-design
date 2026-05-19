@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hermes Harness Builder"
+  short_description: "Design Hermes harnesses and maturity paths."
+  default_prompt: "Use $hermes-harness-builder to design a Hermes harness for this repository."
