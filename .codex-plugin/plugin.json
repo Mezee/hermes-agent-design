@@ -1,0 +1,36 @@
+{
+  "name": "hermes-agent-design",
+  "version": "0.1.0",
+  "description": "Hermes harness design, review, and discovery workflows for agent-native systems.",
+  "author": {
+    "name": "Mezee"
+  },
+  "license": "Proprietary",
+  "keywords": [
+    "hermes",
+    "agents",
+    "plugin",
+    "skills",
+    "architecture"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hermes Agent Design",
+    "shortDescription": "Design and review Hermes agent systems.",
+    "longDescription": "Bundle harness design, agent-native review, best-practice doctrine, and Hermes skill discovery into one reusable Codex plugin.",
+    "developerName": "Mezee",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $hermes-harness-builder to design a Hermes harness for this repo.",
+      "Use $hermes-agent-native-reviewer to audit this Hermes workflow.",
+      "Use $hermes-skill-discovery to find Hermes skills for this use case."
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-avatar/avatars/nousresearch.webp",
+    "logo": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-avatar/avatars/nousresearch.webp"
+  }
+}
