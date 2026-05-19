@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hermes Agent Reviewer"
+  short_description: "Review Hermes agent parity and maturity."
+  default_prompt: "Use $hermes-agent-native-reviewer to review this Hermes architecture for parity and agent-native gaps."
